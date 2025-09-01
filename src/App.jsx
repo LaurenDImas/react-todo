@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div className='min-h-full bg-gray-50'>
       <div className="max-w-xl mx-auto p-6">
-        <h1 className='text-3xl font-bold mb-6'>Tasky ✅</h1>
+        <h1 className='text-3xl font-bold mb-6'>Todo ✅</h1>
         <form onSubmit={handleAdd} className='flex gap-3 mb-4'>
           <input
             type="text"
